@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.5.1",
-    "@testing-library/user-event": "^13.5.0",
     "@types/antd": "^1.0.0",
     "@types/node": "^16.18.113",
     "@types/react": "^18.3.11",
@@ -19,7 +18,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -41,11 +39,9 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
     "@types/jest": "^29.5.13",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^27.5.1",
-    "ts-jest": "^29.2.5"
+    "jest": "^27.5.1"
   }
 }
